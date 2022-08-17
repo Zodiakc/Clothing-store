@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+@media (max-width: 1750px) {
+  .wrapper {
+    justify-content: space-around;
+  }
+}

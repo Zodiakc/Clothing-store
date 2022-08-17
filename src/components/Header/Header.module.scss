@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    .logoGroup{
+        display: flex;
+        align-items: center;
+    }
+    img{
+        max-width: 35px;
+        cursor: pointer;
+    }
+}
+span{
+    margin-left: 20px;
+    font-weight: bold;
+}
